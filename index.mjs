@@ -1,6 +1,6 @@
 import { Bot } from "grammy";
 
-const bot = new Bot(7399517799:AAExB_6fuB_SIYaGEzptfO3hUhCze2EHHzE);
+const bot = new Bot(process.env.TELEGRAM_BOT_TOKEN);
 
 // Map is used for simplicity. For production use a database
 const paidUsers = new Map();
